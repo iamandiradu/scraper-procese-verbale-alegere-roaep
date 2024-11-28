@@ -43,11 +43,6 @@ const downloadPdf = async (url: string, outputPath: string, county: string, sect
 
 const main = async () => {
 	await mapSeries(judete, async (judet) => {
-		// TODO: Done already
-		if (judet === 'ab' || judet === 'AB') {
-			return;
-		}
-
 		const data = fs.readFileSync(`date_judete/${judet.toLowerCase()}.json`, 'utf-8');
 		const electionData = JSON.parse(data) as ElectionData;
 		const files = electionData.scopes.PRCNCT.categories.PRSD.files;
