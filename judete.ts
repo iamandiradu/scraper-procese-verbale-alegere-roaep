@@ -46,4 +46,5 @@ export const judete = [
 	'VS',
 	'VL',
 	'VN',
+	'SR', // Diaspora
 ];
