@@ -1,0 +1,11 @@
+{
+	"license": "PRIVATE",
+	"dependencies": {
+		"@types/bluebird": "^3.5.42",
+		"@types/node": "^22.10.1",
+		"axios": "^1.7.8",
+		"bluebird": "^3.7.2",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.7.2"
+	}
+}
