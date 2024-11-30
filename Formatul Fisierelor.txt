@@ -1,0 +1,24 @@
+Formatul Fișierelor
+
+pv_[nivel]_[județ]_[secție]_prsd_[tip_fișier]_t_[data]_[ora].pdf
+pv_prsd_sv_[județ]_[cod_UAT]_[secție]_[tip_fișier]_[timestamp].pdf
+
+Explicație componente:
+
+• pv: Proces Verbal
+
+• [nivel]: Nivel document (ex.: sv – Secție de Votare)
+
+• [județ]: Cod județ (ex.: bn – Bistrița-Năsăud)
+
+• [secție]: Număr secție de votare
+
+• prsd: Alegeri Prezidențiale
+
+• [tip_fișier]: Tip fișier (ex.: photo - Fotografie a documentului, scnnd - Document scanat, gnrtd - Document generat electronic, a3sgnd - Document semnat în format A3)
+
+• t: Temporar (opțional)
+
+• [data]_[ora]: Data (AAAALLZZ) și ora (HHMMSS) explicit
+
+• [timestamp]: Timp UNIX (număr de secunde de la 1 ianuarie 1970)
